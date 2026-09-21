@@ -1,0 +1,135 @@
+---
+title: |
+  <img src="figures/Leeds_University_logo.svg.webp" class="title-logo" alt="University of Leeds Logo">  
+  This is my slide template
+subtitle: "A subtitle for the template"
+author:
+  - name:
+      given: Juan P.
+      family: Fonseca-Zamora
+    orcid: 0009-0006-7042-3828
+institute: "CDAS | University of Leeds"
+footer: "Meeting/conference name | September 21, 2026. "
+format:
+  revealjs:
+    theme: [default, custom.scss]
+    slide-level: 2
+    navigation-mode: linear
+    title-slide-attributes:
+      data-background-color: "#002060"
+
+# data-background-color: "#002060" #F4F6F9
+---
+
+## Intro
+
+Some bullets:
+
+- bullet 1
+- bullet 2
+- bullet 3
+
+---
+
+## Key Performance Indicators
+
+::: {.kpi-container}
+
+::: {.kpi-card}
+[1.2M+]{.kpi-number}
+[a big number]{.kpi-label}
+:::
+
+::: {.kpi-card}
+[94.8%]{.kpi-number}
+[Another big number]{.kpi-label}
+:::
+
+::: {.kpi-card}
+[< 0.05]{.kpi-number}
+[one more!!!]{.kpi-label}
+:::
+
+:::
+
+---
+
+## Contents
+
+:::: {.columns}
+
+::: {.column width="50%"}
+::: {.card}
+<div class="card-title">a title</div>
+
+- bullet 1
+- bullet 2
+- bullet n
+:::
+:::
+
+::: {.column width="50%"}
+::: {.card-navy}
+<div class="card-title">another subtitle</div>
+
+- one bullet
+- another bullet
+- the last bullet
+:::
+:::
+
+::::
+
+---
+
+## Key Highlights & Callouts
+
+::: {.callout-note}
+## Data Coverage
+The DfT count points cover major motorways and A-roads, while secondary and local roads rely heavily on spatial interpolation and network centrality metrics.
+:::
+
+::: {.callout-important}
+## Validation Strategy
+Spatial leave-one-out cross-validation prevents spatial autocorrelation leak between training and testing sets.
+:::
+
+---
+
+## Sample Code & Model Evaluation
+
+```r
+# Sample R code block
+fit <- lm(y ~ x, data = df)
+summary(fit)
+```
+
+::: {.watermark}
+*Source: Mobility Science Lab internal benchmark, 2026.*
+:::
+
+---
+
+## Next Steps
+
+1. Incorporate temporal seasonal adjustments into link-level predictions.
+2. Finalize national interactive map visualization interface.
+3. Validate against local authority radar counts.
+
+---
+
+## Thank You! {background-color="#002060" .closing-slide}
+
+### Questions & Discussion {.subtitle}
+
+::: {.contact-box}
+
+::: {.contact-item}
+<i class="fa-solid fa-envelope"></i> [ts18jpf@leeds.ac.uk](mailto:ts18jpf@leeds.ac.uk)
+:::
+
+::: {.contact-item}
+<i class="fa-brands fa-github"></i> [github.com/juanfonsecaLS1](https://github.com/juanfonsecaLS1)
+:::
+
+:::

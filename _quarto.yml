@@ -1,0 +1,21 @@
+project:
+  title: "AADF Presentation"
+
+format:
+  revealjs:
+    theme: [default, custom.scss]
+    center: false
+    slide-number: true
+    show-slide-number: all
+    controls: true
+    progress: true
+    history: true
+    navigation-mode: linear
+    code-copy: hover
+    transition: slide
+    background-transition: fade
+    width: 1600
+    height: 900
+    margin: 0.12
+    title-slide-attributes:
+      data-background-color: "#002060"
